@@ -1,0 +1,16 @@
+﻿
+
+<h1> Hello MVC</h1>
+
+<form action="/" method= "post">
+<input type="text" name="myname" placeholder="Tell me your name"/>
+
+<button type="submit">Say Hello</button>
+</form>
+
+
+
+@if(ViewBag.Message != null)
+{
+	<h2 style = "color:blue">@ViewBag.Message</h2>
+}

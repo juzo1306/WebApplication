@@ -1,0 +1,14 @@
+﻿<a href = "/" >Home</a>
+<h1>This is my about page</h1>
+
+<h2>Tax Calculator</h2>
+<form>
+	<input type="number" name="salary" placeholder="Enter your Salary"/>
+	<button type "submut">Tax</button>
+</form>
+
+@if(ViewBag.Message != null)
+{
+	<h2 style = "color:blue">@ViewBag.Message</h2>
+}
+
